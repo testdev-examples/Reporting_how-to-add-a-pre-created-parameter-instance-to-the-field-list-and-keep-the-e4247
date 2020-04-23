@@ -5,8 +5,7 @@
 <!-- default file list end -->
 # How to add a pre-created parameter instance to the Field List and keep the parameter's name
 
-
-<p>This example illustrates how a parameter created at runtime can be added to the Field List of the End-User Report Designer (with the parameter name intact).</p>
+<p>This example demonstrates how to programmatically add a report parameter to the report that is being opened in the End\-User report designer. To display a report in the Field List, it is not sufficient to add it to the XtraReport.Parameters collection. You will also need to use the DesignToolHelper.AddToContainer method and specify the target XRDesignPanel.</p>
 
 <br/>
 
